@@ -51,6 +51,8 @@ ul {
     margin-right: auto;
     margin-left: auto;
     width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
 
 }
 
@@ -148,14 +150,20 @@ header .link-logo {
 
 /* hero */
 
+
 .hero {
     background-color: var(--primary-black-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+
     color: var(--primary-white-color);
     text-transform: uppercase;
     font-weight: 900;
@@ -163,6 +171,7 @@ header .link-logo {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    max-width: 696px;
 }
 .primary-button {
     display: inline-block;
@@ -256,8 +265,8 @@ header .link-logo {
 .team-items {
     display: flex;
     justify-content: space-between;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-left: 0;
+    
 }
 
 .team {
@@ -274,6 +283,10 @@ header .link-logo {
 
     margin-right: 0;  
 }
+.team-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 .team-title {
     color: var(--title-text-color);
@@ -281,7 +294,7 @@ header .link-logo {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -297,6 +310,10 @@ header .link-logo {
 footer {
    background-color: var(--primary-black-color);
 }
+.footer-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 footer .logo-studio {
     color: var(--primary-white-color);
 }
@@ -305,14 +322,13 @@ footer .logo-studio {
 }
 footer .link-logo {
     display: inline-block;
-    padding-top: 60px;
+    
     padding-left: 15px;
     margin-right: 0;
 }
 .address-items {
     display: inline-block;
     padding-top: 20px;
-    padding-bottom: 60px;
     padding-left: 15px;
     
 }
@@ -352,7 +368,7 @@ footer .link-logo {
     justify-content: center;
     gap: 8px;
     padding-left: 0;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 
 }
 
@@ -383,26 +399,28 @@ footer .link-logo {
 }
 /* Project */
 
+
 .project-card {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100%-30px)/3);
-    padding-left: 0;
-    margin-right: 0;
+    flex-basis: calc((100% - 30px)/3);
+    padding: 0;
+    margin: 0;
     
 }
 
-.project {
+/* .project {
     display: block;
     border: 1px solid #EEEEEE;
     
-} 
+} */
 .project-container {
     display: block;
-    width: 322px;
-    height: 70px;
-    margin: 20px 24px;
+    max-width: 370px;
+    border: 1px solid #EEEEEE;
+    border-top: transparent;
+    padding: 20px 24px;
 }
 
 .project-title {
