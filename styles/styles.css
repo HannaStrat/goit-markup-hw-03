@@ -89,7 +89,7 @@ header .link-logo {
     display: block;
     padding-top: 24px ;
     padding-bottom: 25px;
-    padding-left: 15px;
+    padding-left: 0;
     margin-right: 93px;
 }
 
@@ -112,7 +112,7 @@ header .link-logo {
     
     margin: 0;
     padding-top: 32px;
-    padding-right: 15px;
+    padding-right: 0;
     padding-bottom: 32px;
     padding-left: 0;
 }
