@@ -245,7 +245,7 @@ header .link-logo {
     margin-top: 0;
     margin-bottom: 50px;
 }
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -307,11 +307,11 @@ header .link-logo {
 
 footer {
    background-color: var(--primary-black-color);
+   padding-top: 60px;
+   padding-bottom: 60px;
+
 }
-.footer-container {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
+
 footer .logo-studio {
     color: var(--primary-white-color);
 }
@@ -330,6 +330,9 @@ footer .link-logo {
     padding: 0;
     
 }
+.footer-items {
+    margin-bottom: 9px;
+}
 
 .address-item {
     text-decoration: none;
@@ -338,7 +341,8 @@ footer .link-logo {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-    
+    margin-bottom: 9px;
+       
 }
 
 .item {
@@ -348,6 +352,7 @@ footer .link-logo {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    margin-bottom: 9px;
 }
 
 .address.link:hover,
